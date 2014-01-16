@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Задание по JS. Библиотека </title>
+    <meta charset="utf-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="content_left">
+        <h3>Введите текст для обработки </h3>
+        <textarea name="main" id="main" cols="40" rows="10" placeholder="Введите здесь слова для проверки"></textarea>
+        <p>Для поиска приставок введите слово <br>
+            (не более одного слова)</p>
+        <input type="text" placeholder="Поиск приставки" id="pristavki">
+        <p>Нажмите кнопку для получения результата</p>
+        <button id="get-result">Получить результат</button>
+    </div>
+
+    <div class="content_right">
+        <h3>Результат </h3>
+        <p class="center"> Поиск слогов </p>
+        <textarea disabled name="result" id="result" cols="40" rows="5" placeholder="Здесь вы увидите полученный результат"></textarea>
+        <p>В данном тексте:</p>
+        <p class="glasnie"> Гласные - <span> </span></p>
+        <p class="soglasnie"> Согласные - <span></span></p>
+        <p class="words-count"> Количество слов - <span></span></p>
+
+        <p class="center">Поиск приставок</p>
+        <div id="result-pristavki">Здесь Вы увидите результат поиска приставок </div>
+
+</div>
+</body>
+</html>

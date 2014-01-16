@@ -1,0 +1,46 @@
+body {
+    width: 1000px;
+    margin: 10% auto 0;
+}
+h3,p {
+    margin: 0 0 5px 0;
+}
+.content_left {
+    margin: 25px 10% 0 0;
+}
+.content_left,
+.content_right {
+    float: left;
+}
+p > span {
+    font-weight: bold;
+}
+#main {
+    margin-bottom: 20px;
+}
+#result {
+    margin-bottom: 10px;
+    display: block;
+}
+#pristavki {
+    width: 150px;
+    margin-bottom: 20px;
+}
+#result-pristavki {
+    width: 330px;
+    height: 105px;
+    border: 1px solid #A0A0A0;
+    overflow-y: auto;
+    color: #555;
+}
+#result-pristavki span{
+    font-weight: bold;
+    color: #000;
+}
+.center {
+    text-align: center;
+    font-style: normal;
+}
+p  {
+    font-style: italic;
+}
